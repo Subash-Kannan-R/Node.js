@@ -1,0 +1,36 @@
+DAY1
+1)Why backend is needed?
+   ->It stores, processes, and secures data (like user info, orders, etc.)
+   ->It connects frontend (React app, website, etc.) with database.
+   ->It handles business logic (authentication, validation, calculations, etc.)
+   ->It controls access (only logged-in users can access some data).
+
+
+2)Can we use the same backend in React? Is it possible to do backend in frontend?
+  ->Yes, you can use the same backend (like Node.js/Express, Python, etc.) with React.
+  ->React (frontend) just sends API requests (HTTP) to backend (e.g., via fetch() or axios).
+
+
+3)Blocking I/O	
+  ->Tasks are executed one after another.
+  ->A task must finish before the next starts.	
+  ->Traditional languages like Java, Python (default)
+Non-Blocking I/O	
+   ->Multiple tasks can run concurrently — no waiting for one to finish.	
+   ->Node.js uses non-blocking I/O
+
+4)What is CLI
+  ->CLI = Command Line Interface
+  ->It’s a way to interact with your computer or tools by typing commands.
+  ->Example: npm init, git status, node app.js
+
+
+5)Event Driven Architecture
+  ->Node.js works on Event Driven Architecture.
+  ->That means it listens for events and executes callbacks when those events happen.
+
+
+
+6)What is Command Prompt?
+   ->Command Prompt is a CLI tool built into Windows OS.
+   ->Used to run commands like file navigation, Node scripts, Git commands, etc.
