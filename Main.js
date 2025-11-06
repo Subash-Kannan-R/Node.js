@@ -1,5 +1,4 @@
-import sub, { add, mul} from './Demo.js';
+import { name, age } from './Demo.js';
 
-console.log(add(5, 3));        // 8
-console.log(mul(4, 2));   // 8
-console.log(sub(10, 6));  // 4
+console.log(name);
+console.log(age);
