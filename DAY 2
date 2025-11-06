@@ -1,0 +1,35 @@
+DAY3
+  1. What is Express.js?
+       ->Express.js is a web application framework for Node.js that simplifies building servers and APIs.
+       -> It provides built-in features for handling routes, requests, responses, and middleware, making backend development faster and more organized.
+
+2. Why use Express instead of Node’s HTTP module?
+      ->The built-in Node HTTP module is low-level and requires manual setup for routing, parsing, and responses.
+      ->Express, on the other hand, provides a simpler, cleaner, and more structured way to handle routes, middleware, and request processing, which helps developers build scalable applications easily.
+
+3. What is dotenv?
+      ->dotenv is a Node.js library that loads environment variables from a .env file into process.env.
+      ->It helps manage sensitive information like database URLs, API keys, or port numbers securely, keeping them separate from the application’s source code.
+
+4. What is Middleware?
+     ->Middleware refers to functions that execute between the request and the response cycle.
+     ->They can modify the request or response objects, perform tasks such as logging, authentication, or validation, and then pass control to the next function in the stack.
+
+5. Difference between req.params and req.query
+     ->req.params: Used to get values from URL path parameters, usually for dynamic routes (like /users/:id).
+     ->req.query: Used to get data from the query string in the URL (like /users?id=5).
+     ->In short, params are part of the URL path, while query values come after a ? in the URL.
+
+6. How do you handle POST requests in Express?
+     ->POST requests send data from the client to the server, typically in the request body.
+     ->To handle them, Express uses middleware like express.json() to parse incoming data so that it can be accessed and processed on the server.
+
+7. Why do we separate Routes and Controllers?
+     ->Routes and controllers are separated to organize code better.
+     ->Routes define the endpoints (URLs) of the application.
+     ->Controllers contain the actual logic for handling each route.
+     ->This separation improves scalability, readability, and maintainability of the project.
+
+8. What’s the role of process.env.PORT?
+      ->process.env.PORT is used to read the port number from environment variables, usually defined in a .env file.
+      ->It allows the application to run on different ports depending on the environment — such as one port locally and another in production — without changing the code.
