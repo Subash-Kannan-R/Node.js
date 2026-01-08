@@ -1,14 +1,20 @@
 {
-  "name": "backend",
+  "name": "node",
   "version": "1.0.0",
-  "main": "Demo.js",
+  "description": "",
+  "main": "Server.js",
   "type": "module",
   "scripts": {
-     "type": "module" 
-
+    "dev": "nodemon Server.js",
+    "start": "node Server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.10"
+  }
 }
